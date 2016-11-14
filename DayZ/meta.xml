@@ -1,0 +1,198 @@
+<!--
+###----------------#################------------------------###
+###--------------- Edit by KopfKrank -----------------------###
+###----- Copyright liegt bei Marwin W., Lower Saxony -------###
+###------###########################################--------###
+-->
+<meta>
+    <info author="Marwin, Lower, |Edit[KopfKrank]" type="gamemode" name="DayZ" info="DayZ v1.0" />
+    
+    <min_mta_version client="1.5.2" server="1.5.2" />
+    
+    <script src="server/editor_server.lua" type="server" />
+    <script src="client/editor_client.lua" type="client" />
+    
+    <script src="server/settingsboth_server.lua" type="server" />
+    <script src="server/playerspawn_server.lua" type="server" />
+    <script src="server/fahrzeugspawns_server.lua" type="server" />
+    <script src="server/system_server.lua" type="server" />
+    <script src="server/zombie_server.lua" type="server" />
+    <script src="server/animals_server.lua" type="server" />
+    <script src="server/wetter_server.lua" type="server" />
+    <script src="server/login_server.lua" type="server" />
+    <script src="unbrauchbar/jq_server.lua" type="server" />
+    
+    <script src="client/menu_client.lua" type="client" />
+    <script src="client/inventar_client.lua" type="client" />
+    <script src="client/system_client.lua" type="client" />
+    <script src="client/animals_client.lua" type="client" />
+    <script src="unbrauchbar/jq_client.lua" type="client" />
+    <script src="client/text_client.lua" type="client" />
+    <script src="server/script_server.lua" type="server" />
+    <script src="shader/motion/motion_c.lua" type="client" />
+        <file src="shader/motion/motion.fx" />
+    <script src="shader/blackwhite/blackwhite_c.lua" type="client" />
+        <file src="shader/blackwhite/blackwhite.fx" />
+        <file src="unbrauchbar/bilder/c_info/rand.png" />
+        <file src="unbrauchbar/bilder/background.png" />
+        <file src="unbrauchbar/bilder/imageHolder.png" />
+        <file src="unbrauchbar/bilder/flags/died.png" />
+        <file src="unbrauchbar/bilder/flags/join.png" />
+        <file src="unbrauchbar/bilder/flags/quit.png" />
+        
+    <script src="gruppensystem/client/gang_client.lua" type="client" />
+    <script src="gruppensystem/server/gang_utils_server.lua" type="server" />
+    <script src="gruppensystem/server/gang_server.lua" type="server" />
+    <script src="gruppensystem/server/gruppensystem_server.lua" type="server" />
+    <script src="gruppensystem/client/gruppensystem_client.lua" type="client" />
+    <export function="addGang" type="server" />
+    <!-- Addon: Exported Functions -->
+    <export function="addAddonInfo" type="server" />
+    <export function="addDayZInfoBox" type="client" />
+
+    <settings>
+        <setting name="*column_name" value="Group" />
+        <setting name="*gang_list_command" value="gangs" />
+        <setting name="*gang_create_command" value="creategang" />
+    </settings>
+    
+    <file src="bilder/scrollmenu_1.png" />
+    <file src="bilder/background_scoreboard.png" />
+    <file src="bilder/white.png" />
+    <file src="bilder/window_bg.png" />
+    <file src="bilder/dead.jpg" />
+    <file src="bilder/dayzicons/bandit.png" />
+    <file src="bilder/dayzicons/blood.png" />
+    <file src="bilder/dayzicons/brokenbone.png" />
+    <file src="bilder/dayzicons/eye.png" />
+    <file src="bilder/dayzicons/food.png" />
+    <file src="bilder/dayzicons/sound.png" />
+    <file src="bilder/dayzicons/temperature.png" />
+    <file src="bilder/dayzicons/thirsty.png" />
+    <file src="bilder/dayzicons/medic.png" />
+    <file src="bilder/dayzicons/level_2.png" />
+    <file src="bilder/dayzicons/level_3.png" />
+    <file src="bilder/dayzicons/level_4.png" />
+    <file src="bilder/dayzicons/level_5.png" />
+    <file src="mods/sniper.txd" />
+    <file src="mods/sniper.dff" />
+    <file src="mods/civilian.txd" />
+    <file src="mods/civilian.dff" />
+    <file src="mods/bandit1.txd" />
+    <file src="mods/bandit1.dff" />
+    <file src="mods/bandit2.txd" />
+    <file src="mods/bandit2.dff" />
+    <file src="mods/bandit3.txd" />
+    <file src="mods/bandit3.dff" />
+    <file src="mods/standart.txd" />
+    <file src="mods/standart.dff" />
+    <file src="mods/femalestandard.dff" />
+    <file src="mods/femalestandard.txd" />
+    <file src="mods/hero.txd" />
+    <file src="mods/hero.dff" />
+    <file src="mods/bear.txd" />
+    <file src="mods/bear.dff" />
+    <file src="mods/fox.txd" />
+    <file src="mods/fox.dff" />
+    <file src="mods/wolf.txd" />
+    <file src="mods/wolf.dff" />
+    <file src="peds/22.txd" />
+    <file src="peds/56.txd" />
+    <file src="peds/67.txd" />
+    <file src="peds/68.txd" />
+    <file src="peds/69.txd" />
+    <file src="peds/70.txd" />
+    <file src="peds/84.txd" />
+    <file src="peds/92.txd" />
+    <file src="peds/97.txd" />
+    <file src="peds/105.txd" />
+    <file src="peds/107.txd" />
+    <file src="peds/108.txd" />
+    <file src="peds/111.txd" />
+    <file src="peds/126.txd" />
+    <file src="peds/127.txd" />
+    <file src="peds/128.txd" />
+    <file src="peds/152.txd" />
+    <file src="peds/162.txd" />
+    <file src="peds/167.txd" />
+    <file src="peds/188.txd" />
+    <file src="peds/192.txd" />
+    <file src="peds/195.txd" />
+    <file src="peds/206.txd" />
+    <file src="peds/209.txd" />
+    <file src="peds/212.txd" />
+    <file src="peds/229.txd" />
+    <file src="peds/230.txd" />
+    <file src="peds/258.txd" />
+    <file src="peds/264.txd" />
+    <file src="peds/274.txd" />
+    <file src="peds/277.txd" />
+    <file src="peds/280.txd" />
+    <file src="peds/287.txd" />
+    <file src="music/mgroan1.ogg" />
+    <file src="music/mgroan2.ogg" />
+    <file src="music/mgroan3.ogg" />
+    <file src="music/mgroan4.ogg" />
+    <file src="music/mgroan5.ogg" />
+    <file src="music/mgroan6.ogg" />
+    <file src="music/mgroan7.ogg" />
+    <file src="music/mgroan8.ogg" />
+    <file src="music/mgroan9.ogg" />
+    <file src="music/mgroan10.ogg" />
+    <file src="music/hit1.mp3" />
+    <file src="music/hit2.mp3" />
+    <file src="music/hit3.mp3" />
+    <file src="items/assault_ammo.txd" />
+    <file src="items/assault_ammo.dff" />
+    <file src="items/army_clothes.txd" />
+    <file src="items/army_clothes.dff" />
+    <file src="items/backpack_alice.txd" />
+    <file src="items/backpack_alice.dff" />
+    <file src="items/backpack_coyote.txd" />
+    <file src="items/backpack_coyote.dff" />
+    <file src="items/beans_can.txd" />
+    <file src="items/beans_can.dff" />
+    <file src="items/civilian_clothes.txd" />
+    <file src="items/civilian_clothes.dff" />
+    <file src="items/first_aid_kit.txd" />
+    <file src="items/first_aid_kit.dff" />
+    <file src="items/heat_pack.txd" />
+    <file src="items/heat_pack.dff" />
+    <file src="items/katana.txd" />
+    <file src="items/katana.dff" />
+    <file src="items/pain_killers.txd" />
+    <file src="items/pain_killers.dff" />
+    <file src="items/pasta_can.txd" />
+    <file src="items/pasta_can.dff" />
+    <file src="items/pistol_ammo.txd" />
+    <file src="items/pistol_ammo.dff" />
+    <file src="items/shotgun_ammo.txd" />
+    <file src="items/shotgun_ammo.dff" />
+    <file src="items/backpack_small.txd" />
+    <file src="items/backpack_small.dff" />
+    <file src="items/backpack_czech.txd" />
+    <file src="items/backpack_czech.dff" />
+    <file src="items/smg_ammo.txd" />
+    <file src="items/smg_ammo.dff" />
+    <file src="items/sniper_ammo.txd" />
+    <file src="items/sniper_ammo.dff" />
+    <file src="items/sniper_clothes.txd" />
+    <file src="items/sniper_clothes.dff" />
+    <file src="items/soda_can.txd" />
+    <file src="items/soda_can.dff" />
+    <file src="items/water_bottle.txd" />
+    <file src="items/water_bottle.dff" />
+    <file src="items/standard_clothes.txd" />
+    <file src="items/standard_clothes.dff" />
+    <file src="items/tent.txd" />
+    <file src="items/tent.dff" />
+    <file src="items/wirefence.txd" />
+    <file src="items/wirefence.dff" />
+    <file src="items/camera.txd" />
+    <file src="items/camera.dff" />
+    <script src="effekte/bone_attach.lua" />
+    <script src="effekte/bone_attach_c.lua" type="client" />
+    <script src="effekte/attach_func.lua" />
+    <script src="effekte/attach_func.lua" type="client" />
+    <script src="effekte/bone_pos_rot.lua" type="client" />
+</meta>
