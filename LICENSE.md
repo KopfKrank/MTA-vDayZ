@@ -1,4 +1,4 @@
-vDayZ - Allgemeine Geschäftsbedingungen
+vDayZ - Allgemeine Geschäftsbedingungen!
 
 
 1. Bedingungen
