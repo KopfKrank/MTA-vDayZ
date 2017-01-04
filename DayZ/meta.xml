@@ -5,9 +5,9 @@
 ###------###########################################--------###
 -->
 <meta>
-    <info author="Marwin, Lower, |Edit[KopfKrank]" type="gamemode" name="DayZ" info="DayZ v1.0" />
+    <info author="Marwin, Lower, |Edit[siNeX]" type="gamemode" name="DayZ" info="DayZ v1.0" />
     
-    <min_mta_version client="1.5.2" server="1.5.2" />
+    <min_mta_version client="1.5.3" server="1.5.3" />
     
     <script src="server/editor_server.lua" type="server" />
     <script src="client/editor_client.lua" type="client" />
